@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="icon" type="image/x-icon" href="/img/heart.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap'); </style>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js"></script> 
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="/img/hands-gesture-with-red-heart-in-center-love-icon.jpg" alt="">
+        </nav>
+    </header>
+    <main>
+        <section id="container">
+            <div id="info">
+                <div class="title">Introduce tu nombre y el de tu crush y ¡calcularemos tu afinidad!</div>
+                <div class="form-item name1">
+                    <input id="name1" type="text">
+                    <label for="">Tu nombre</label>
+                </div>
+                <div class="form-item name2">
+                    <input id="name2" type="text">
+                    <label for="">El nombre de tu crush</label>
+                </div>
+                <button onclick="calcular()">Calcular</button>
+                <div id="messages" class="hidden">
+                    <div id="loading" class="hidden">Calculando afinidad...</div>
+                    <div id="result" class="hidden"></div>
+                    <div id="value" class="hidden"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
