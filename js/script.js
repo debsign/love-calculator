@@ -37,7 +37,7 @@ function calcular(){
     
         var value = document.getElementById('value');
         value.classList.remove('hidden');
-        value.innerHTML = afinidad.name1 + ' y ' + afinidad.name2 + ', vuestra afinidad es:' + afinidad.value + '%';
+        value.innerHTML = afinidad.name1 + ' y ' + afinidad.name2 + ', vuestra afinidad es: ' + afinidad.value + '%';
     }, 3000)
 
     // Solicitud GET (Request).
